@@ -15,9 +15,9 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
-                                "http://localhost:5173",
-                                "https://your-frontend-name.vercel.app"
-                        )
+						"http://localhost:5173",
+						"https://sales-management-2-0-frontend.onrender.com"
+					)
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
