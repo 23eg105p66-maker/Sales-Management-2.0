@@ -16,7 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
 						"http://localhost:5173",
-						"https://sales-management-2-0-frontend.onrender.com"
+						"https://sales-management-frontend-exmc.onrender.com"
 					)
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");

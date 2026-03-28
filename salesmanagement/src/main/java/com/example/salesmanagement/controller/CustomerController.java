@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/customers")
-@CrossOrigin(origins = {"http://localhost:5173", "https://sales-management-2-0-frontend.onrender.com"})
+@CrossOrigin(origins = {"http://localhost:5173", "https://sales-management-frontend-exmc.onrender.com"})
 public class CustomerController {
 
     private final CustomerService customerService;
